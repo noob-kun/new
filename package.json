@@ -1,0 +1,32 @@
+{
+  "name": "arcane",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.3.2",
+    "@ckeditor/ckeditor5-vue": "^4.0.1",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "@vuepic/vue-datepicker": "^3.5.3",
+    "events": "^3.3.0",
+    "flowbite": "^1.5.4",
+    "js": "^0.1.0",
+    "popper": "^1.0.1",
+    "tw-elements": "^1.0.0-alpha12",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  }
+}

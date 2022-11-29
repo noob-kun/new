@@ -1,7 +1,9 @@
 <script>
+
 import Modal from '../components/Modal.vue'
 import NoDownload from '../components/NoDownload.vue'
 import BreadCrumbs from '../components/BreadCrumbs.vue'
+// import dropdown from '../components/dropdown.vue'
 import RecentCat from '../components/RecentCat.vue'
 import { useVuelidate } from '@vuelidate/core'
 import dropdown from '../components/dropdown.vue'
@@ -10,7 +12,7 @@ import Datepicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css';
 
 export default {
-   components: { Datepicker , Modal,NoDownload},
+   components: { Datepicker , Modal,NoDownload ,BreadCrumbs,RecentCat},
    data() {
       return {
          date: null,
@@ -42,23 +44,16 @@ export default {
 
 </script>
 
-
-
-
-
-
-
-
-
-
 <template>
+
+   <navigation />
    <dropdown />
    <div class="p-14">
       <Modal />
 
       <!-- <NoDownload /> -->
 
-      <!-- <RecentCat /> -->
+      <RecentCat />
 
       <div>
          <!-- <BreadCrumbs /> -->
